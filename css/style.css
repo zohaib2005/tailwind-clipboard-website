@@ -808,6 +808,11 @@ h5 {
   background-color: hsl(171 66% 44% / var(--tw-bg-opacity));
 }
 
+.bg-lightBlue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 100% 69% / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
