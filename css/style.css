@@ -687,10 +687,6 @@ h5 {
   border-width: 1px;
 }
 
-.border-solid {
-  border-style: solid;
-}
-
 .border-darkGrayishBlue {
   --tw-border-opacity: 1;
   border-color: hsl(210 10% 33% / var(--tw-border-opacity));
@@ -778,11 +774,6 @@ h5 {
 
 .border-darkGrayishBlue\/95 {
   border-color: hsl(210 10% 33% / 0.95);
-}
-
-.border-s-orange-50 {
-  --tw-border-opacity: 1;
-  border-inline-start-color: rgb(255 247 237 / var(--tw-border-opacity));
 }
 
 .bg-darkGrayishBlue {
@@ -1066,6 +1057,7 @@ h5 {
 }
 
 .button-container {
+  border-width: 1px;
   font-size: 1.25rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
@@ -1141,12 +1133,6 @@ body {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-x-1 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:pl-16 {
